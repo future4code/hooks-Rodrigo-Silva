@@ -18,7 +18,6 @@
 
 
 
-
 /*  Exercícios de escrita de código  */
 
     // Exercício 1
