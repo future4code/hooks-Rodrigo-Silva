@@ -98,14 +98,16 @@ Exercícios de interpretação de código
         // const custoQuilowattHora = 0.05
         // const ValorFinal = custoQuilowattHora * 280
 
-        // console.log(ValorFinal)
-
-        // //Valor recebido pelo usuário
-        // const custoQuilowattHora = 0.05
-        // const quilowatt = Number(prompt("Digite a quantidade gasta de Quilowwatt"))
-        // const ValorFinal = custoQuilowattHora * quilowatt
-
         // console.log("R$", ValorFinal)
+
+        // //Valor 280 com desconto
+        const custoQuilowattHora = 0.05
+        const desconto = 0.15
+        const ValorQuaseFinal = custoQuilowattHora * 280
+        const ValorFinal = ValorQuaseFinal - (ValorQuaseFinal * desconto)
+
+        console.log("R$", ValorQuaseFinal)
+        console.log("R$", ValorFinal)
 
     //Questão 3  - (Peguei os valores no Google)
         // //Libra(lb) para quilograma(kg)
@@ -149,8 +151,8 @@ Exercícios de interpretação de código
 
         // console.log("450 xic equivalem a", litroF, "l")
 
-        //Valor recebido pelo usuário
-        const xicF = Number(prompt("Digite o valor de xícaras para converter em litros"))
-        const litroF = xicF * 6 / 25
+        // //Valor recebido pelo usuário
+        // const xicF = Number(prompt("Digite o valor de xícaras para converter em litros"))
+        // const litroF = xicF * 6 / 25
 
-        console.log("450 xic equivalem a", litroF, "l")
+        // console.log("450 xic equivalem a", litroF, "l")
