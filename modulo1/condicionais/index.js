@@ -56,20 +56,18 @@
 //     if (turno.toUpperCase() === "M") {
 //         console.log("Bom dia!");
 //     }
-//     if (turno.toUpperCase() === "V") {
+//     else if (turno.toUpperCase() === "V") {
 //         console.log("Boa tarde!");
 //     }
-//     if (turno.toUpperCase() === "N") {
+//     else if (turno.toUpperCase() === "N") {
 //         console.log("Boa noite!");
+//     } 
+//     else {
+//         console.log("Valor Inválido");
 //     }
-    /* TENTEI COLOCAR ESSA PARTE POREM NÃO DEU CERTO, PREFERI
-    DEIXAR COMENTADO PARA MOSTRAR QUE TENTEI */
-    // 
-    // if (turno.toUpperCase() !== "M", turno.toUpperCase() !== "V", turno.toUpperCase() !== "N") {
-    //         console.log("Valor Inválido");
-    // }
 // }
 // verificarTurno();
+
 
 //Ecercício 3
 // const turno2 = prompt("Em qual turno você estuda? M (matutino) ou V (Vespertino) ou N (Noturno)")
