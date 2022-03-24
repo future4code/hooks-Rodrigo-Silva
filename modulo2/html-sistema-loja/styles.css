@@ -1,0 +1,68 @@
+body {
+    background: url(img/fundo.jpg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#banner {
+    width: 940px;
+    margin-left: 205px;
+    border-radius: 20px;
+}
+
+.caixa-fundo {
+    background-color: white;
+}
+
+#cabeçalho {
+    margin: 20px 200px;
+    border-radius: 20px;
+    height: 90px;
+    line-height: 7px;
+}
+
+#rodape {
+    margin-top: 170px;
+    height: 60px;
+    border-radius: 20px;
+    line-height: 0px;
+}
+
+#menu {
+    margin: 10px 200px;
+    border-radius: 20px;
+    line-height: 30px;
+    /* word-spacing: 20px; */
+}
+
+#estoque {
+    background-color: white;
+    margin: 10px 200px;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+#tabela {
+    background-color: rgb(182, 179, 179);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+tr {
+    background-color: rgba(255, 255, 255, 0.219);
+    text-align: center;
+}
+
+#adicionarProduto {
+    margin: 10px 200px;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 10px 10px 10px 20px;
+}
+
+#funcionario {
+    margin: 10px 200px;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 10px 10px 10px 20px;
+}
