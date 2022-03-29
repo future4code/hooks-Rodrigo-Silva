@@ -115,6 +115,9 @@ td button {
     height: 100px;
 }
 
+.imgTabela {
+    width: 50px;
+}
 
 #back-button {
     background-color: white;
