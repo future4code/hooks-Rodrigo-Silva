@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 40px 5fr 50px;
+    align-items: center;
+
+    background-color: mediumvioletred;
+    height: 57px;
+}
+
+img {
+    margin: 0px auto;
+    width: 19px;
+}
+
+button {
+    margin-right: 10px;
+    height: 20px;
+    text-align: justify;
+    border-radius: 1px;
+    border-color: black;
+    background-color: white;
+}
+
+main {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 1fr;
+
+    background-color: #f2d0e0;
+    padding: 10px;
+}
+
+p, h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 15px 15px 15px 15px;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    
+    padding: 15px 0;
+    background-color: mediumvioletred;
+}
+
+a {
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly; */
+
+    display: grid;
+    grid-template-columns: 40px 5fr 50px;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+
+/* id */
+
+#bolo-lindo {
+    width: 260px;
+}
+
+#conteudo {
+    display: grid;
+    grid-template-columns: 240px 2fr ;
+
+}
+
+
+
+/* class */
+
+.card-bolo {
+    box-shadow: 5px 5px 5px darkgray;
+}
+
