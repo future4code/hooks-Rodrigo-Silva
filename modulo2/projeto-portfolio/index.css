@@ -1,0 +1,326 @@
+* {
+    margin: 0px auto;
+}
+
+@font-face {
+    font-family: "White Storm";
+    src: url(fontes/White\ Storm.otf);
+ }
+
+body {
+    background-image: url(img/pergaminho.jpg);
+    background-color: rgb(223, 222, 222);
+    font-family: "White Storm";
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+#borda-menu {
+    position: relative;
+}
+
+#banner {
+    width: 1200px;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+
+#pergaminho {
+    position: absolute;
+    width: 450px;
+    margin: 0px 810px;
+}
+
+#home {
+    color: rgb(223, 222, 222);
+    margin-left: 640px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+}
+
+#sub {
+    color: rgb(223, 222, 222);
+    margin-left: 662px;
+    margin-top: -55px;
+    position: absolute;
+    text-align: center;
+}
+
+#pag-projetos {
+    color: black;
+    margin-top: 140px;
+    margin-left: 960px;
+    position: absolute;
+    font-size: 50px;
+    z-index: 999999;
+}
+
+#pag-projetos:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#pag-ensino {
+    color: black;
+    margin-top: 210px;
+    margin-left: 970px;
+    position: absolute;
+    font-size: 50px;
+    z-index: 999999;
+}
+
+#pag-ensino:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#pag-habilidades {
+    color: black;
+    margin-top: 280px;
+    margin-left: 970px;
+    position: absolute;
+    font-size: 50px;
+    z-index: 999999;
+}
+
+#pag-habilidades:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#pag-contato {
+    color: black;
+    margin-top: 350px;
+    margin-left: 970px;
+    position: absolute;
+    font-size: 50px;
+    z-index: 999999;
+}
+
+#pag-contato:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#botao-voltar {
+    color: black;
+    margin-top: 481px;
+    margin-left: 950px;
+    position: absolute;
+    font-size: 40px;
+    z-index: 999999;
+}
+
+#botao-voltar:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#titulo {
+    color: rgb(73, 72, 72);
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    position: absolute;
+    justify-content: center;
+    margin-top: -38px;
+    margin-left: 300px;
+}
+
+#subtitulo {
+    color: rgb(73, 72, 72);
+    font-size: 20px;
+    /* position: absolute; */
+    justify-content: center;
+    margin-top: 220px;
+    /* margin-left: 310px; */
+}
+
+#redes-sociais {
+    position: fixed;
+    margin-top: 500px;
+    margin-left: 3px;
+}
+
+#banner-linguagens {
+    margin-top: 1000px;
+}
+
+#banner-html {
+    margin-top: 250px;
+    margin-left: 142px;
+    width: 200px;
+    height: 200px;
+}
+
+#descricao-html {
+    position: absolute;
+    margin-left: 210px;
+}
+
+#banner-js {
+    margin-bottom: 20px;
+    margin-left: 235px;
+    width: 160px;
+    height: 160px;
+}
+
+#descricao-js {
+    position: absolute;
+    margin-left: 600px;
+}
+
+#banner-css {
+    margin-bottom: 15px;
+    margin-left: 254px;
+    width: 170px;
+    height: 150px;
+}
+
+#descricao-css {
+    position: absolute;
+    margin-left: 1078px;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.color:hover
+{
+    color: rgb(0, 0, 0) !important;
+}
+
+#title-contato {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#contato {
+    text-align: left;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+#nome {
+    padding-right: 260px;
+    padding-bottom: 5px;
+    background-image: url(img/fundo-papel-amassado1.png);
+    border-radius: 5px;
+    border-color: gray;
+}
+
+#email {
+    padding-right: 260px;
+    padding-bottom: 5px;
+    background-image: url(img/fundo-papel-amassado1.png);
+    border-radius: 5px;
+    border-color: gray;
+}
+
+#celular {
+    padding-bottom: 5px;
+    background-image: url(img/fundo-papel-amassado1.png);
+    border-radius: 5px;
+    border-color: gray;
+}
+
+#mensagem {
+    padding-right: 223px;
+    padding-bottom: 100px;
+    background-image: url(img/fundo-papel-amassado1.png);
+    border-radius: 5px;
+    border-color: gray;
+}
+
+#contato-adicional {
+    margin-left: 582px;
+    margin-top: -474px;
+}
+
+.email_tel {
+    margin-left: 580px;
+}
+
+#enviar {
+    font-family: "White Storm";
+    font-size: 20px;
+}
+
+#minha-descricao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#minha-foto {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#minhas-habilidades{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#minhas-habilidades {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#meus-projetos {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+#BlackJack:hover {
+    text-shadow: 10px 5px 5px rgb(153, 115, 45);
+}
+
+#imagem-projetos {
+    display: grid;
+    row-gap: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+main {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 100px ;
+    margin-bottom: 100px;
+    line-height: 80px;
+}
+
+footer {
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    right: -50px;
+    left: 50px;
+}
